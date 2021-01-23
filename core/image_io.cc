@@ -349,7 +349,6 @@ save_png_file (ByteImage::ConstPtr image,
 {
     if (image == nullptr)
         throw std::invalid_argument("Null image given");
-
     FILE *fp = std::fopen(filename.c_str(), "wb");
     if (!fp)
         throw util::FileException(filename, std::strerror(errno));

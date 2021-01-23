@@ -1,4 +1,4 @@
-/*
+ /*
  * Copyright (C) 2015, Simon Fuhrmann
  * TU Darmstadt - Graphics, Capture and Massively Parallel Computing
  * All rights reserved.
