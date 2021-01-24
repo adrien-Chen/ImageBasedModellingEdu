@@ -40,7 +40,11 @@ int  calc_ransac_iterations (double p,
 
     /** TODO HERE
      * Coding here**/
-    return 0;
+    double prob_all_good = math::fastpow(p, K);
+    double num_iterations = std::log(1.0 - z) / std::log(1.0 - prob_all_good);
+    return static_cast<int>(math::round(num_iterations));
+
+    // return 0;
 
 
     /** Reference
@@ -174,6 +178,11 @@ std::vector<int> find_inliers(sfm::Correspondences2D2D const & matches
      * TODO HERE
      *
      * Coding here **/
+     for(int i=0; i<matches.size();++i){
+         double error = calc_sampson_distance(F, matches[i]);  // 计算每对匹配点的Sampson Distance
+         if(error < squared_thresh)
+             inliers.push_back(i);
+     }
 
     /** Reference
     for(int i=0; i< matches.size(); i++){
