@@ -37,7 +37,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08155804-328d-42e4-b20e-96f75a0af12d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/task1/task6_test_pose_from_fundamental.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task1/task6_test_pose_from_fundamental.cc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +79,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.task6_test_pose_from_fundamental">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="coldet" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageBasedModellingEdu" TARGET_NAME="coldet" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -200,11 +194,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="CMake Application.coldet" />
       <item itemvalue="CMake Application.gco" />
@@ -248,7 +237,9 @@
       <workItem from="1610634494350" duration="4543000" />
       <workItem from="1610892774715" duration="1979000" />
       <workItem from="1611139759205" duration="20332000" />
-      <workItem from="1611404953088" duration="12985000" />
+      <workItem from="1611404953088" duration="13454000" />
+      <workItem from="1611976525374" duration="3806000" />
+      <workItem from="1612076433331" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="Add all the basic library and the sample code for class1">
       <created>1610359674091</created>
@@ -341,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611477038137</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="finished task1-6">
+      <created>1611478817798</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611478817798</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +370,8 @@
     <MESSAGE value="finished task1-3" />
     <MESSAGE value="finished task1-4" />
     <MESSAGE value="finished task1-5" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished task1-5" />
+    <MESSAGE value="finished task1-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished task1-6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
