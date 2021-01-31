@@ -6,11 +6,6 @@ include_directories("../..")
 
 # test triangle
 set(TRIANGLE_FILE
-<<<<<<< HEAD
-        task2-1_test_triangle.cc)
-=======
-        task2-1_test_triangle.cc )
->>>>>>> upstream/main
 add_executable(task2-1_test_triangle ${TRIANGLE_FILE})
 target_link_libraries(task2-1_test_triangle sfm util core)
 
